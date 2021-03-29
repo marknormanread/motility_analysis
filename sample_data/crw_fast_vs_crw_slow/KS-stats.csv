@@ -1,0 +1,15 @@
+# fast vs slow
+metric         , Dval  
+duration       , 0.446970
+length         , 0.090250
+displacement   , 0.123518
+meander        , 0.095191
+speed          , 0.191885
+median spd     , 0.233531
+IRQ spd        , 0.222332
+turns          , 0.277894
+median turns   , 0.499341
+irq turns      , 0.553689
+rolls          , 0.396909
+median rolls   , 0.691473
+irq rolls      , 0.718174

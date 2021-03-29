@@ -1,0 +1,15 @@
+# Levy vs CRW
+metric         , Dval  
+duration       , 0.270505
+length         , 0.290512
+displacement   , 0.367520
+meander        , 0.173490
+speed          , 0.219511
+median spd     , 0.355782
+IRQ spd        , 0.775178
+turns          , 0.172842
+median turns   , 0.288346
+irq turns      , 0.734303
+rolls          , 0.097014
+median rolls   , 0.149528
+irq rolls      , 0.373444

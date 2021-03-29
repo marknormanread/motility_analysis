@@ -1,0 +1,15 @@
+# Levy vs CRW
+metric         , A statistic value
+duration       , 0.386353
+length         , 0.667457
+displacement   , 0.733623
+meander        , 0.556401
+speed          , 0.642151
+speed median   , 0.692136
+speed IRQ      , 0.942998
+turns          , 0.548920
+turns median   , 0.625800
+turns IRQ      , 0.908565
+rolls          , 0.477023
+rolls median   , 0.429067
+rolls IRQ      , 0.721234

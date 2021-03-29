@@ -1,0 +1,109 @@
+<params>
+	<Simulation>
+		<endTime>30.0</endTime>
+		<timeSlice>0.50</timeSlice>
+		
+		<tissueWidth>412</tissueWidth>
+		<tissueDepth>100</tissueDepth>		
+		<bufferSize>0.1</bufferSize>
+
+		<Neutrophils>
+			<burn>false</burn>
+			<burnTime>0.0</burnTime>
+			
+			<numNeutrophils>80</numNeutrophils>
+			<follicleRatio>0.1</follicleRatio>
+			
+			<attractantDiffCoeff>300</attractantDiffCoeff>
+			<attractantHalfLife>720</attractantHalfLife>
+
+			<ltb4DiffCoeff>1.0</ltb4DiffCoeff>
+			<ltb4HalfLife>0.01</ltb4HalfLife>
+		</Neutrophils>
+		<TCells>
+			<numTCells>100</numTCells>
+		</TCells>
+	</Simulation>
+
+	<Neutrophil>
+		<diameter>7.0</diameter>
+		
+		<attractantStimulated_AttractantThreshold>0.1</attractantStimulated_AttractantThreshold>
+		<ltb4Stimualted_AttractantThreshold>5.0</ltb4Stimualted_AttractantThreshold>
+		<ltb4Stimualted_LTB4Threshold>0.00000000000001</ltb4Stimualted_LTB4Threshold>
+		<ltb4SecretionRate>100000.0</ltb4SecretionRate>
+		
+		<perceptionCone>1.04</perceptionCone>
+	</Neutrophil>
+
+	<Movement>		
+		<orientationParadigm>IndCorrTranslationOrientation</orientationParadigm>
+		<translationParadigm>IndCorrTranslationOrientation</translationParadigm>	
+		<maxRotationSpeedMinute>1.0</maxRotationSpeedMinute>
+
+		<LevyFlight>
+			<speedMean>0.5</speedMean>
+			<speedStD>1.0</speedStD>
+		</LevyFlight>
+		<ClassOrientation>
+			<pitchRateMean>0.0</pitchRateMean>
+			<pitchRateStd>0.0</pitchRateStd>
+			<rollRateMean>-1.0</rollRateMean>
+			<rollRateStd>0.0</rollRateStd>
+		</ClassOrientation>
+		<ClassCorrelatedTranslationOrientation>
+			<speedMean>0.15</speedMean>
+			<speedStD>0.0</speedStD>
+
+			<pitchRateMean>0.5</pitchRateMean>
+			<pitchRateStd>0.35</pitchRateStd>
+			<rollRateMean>-1.0</rollRateMean>
+			<rollRateStd>0.0</rollRateStd>
+
+			<corr>1.0</corr>
+			<attack>10.0</attack>
+		</ClassCorrelatedTranslationOrientation>
+		<IndividualOrientation>
+			<pitchM_Mean>0.0</pitchM_Mean>
+			<pitchM_StD>0.0</pitchM_StD>
+			<pitchS_Mean>0.0</pitchS_Mean>
+			<pitchS_StD>0.0</pitchS_StD>
+
+			<rollM_Mean>-1.0</rollM_Mean>
+			<rollM_StD>0.0</rollM_StD>
+			<rollS_Mean>0.0</rollS_Mean>
+			<rollS_StD>0.0</rollS_StD>
+		</IndividualOrientation>
+		<IndCorrOrientationTranslation>
+			<speedM_Mean>2.35</speedM_Mean>
+			<speedM_StD>4.45</speedM_StD>
+			<speedS_Mean>1.2</speedS_Mean>
+			<speedS_StD>3.1</speedS_StD>
+			
+			<pitchM_Mean>2.6</pitchM_Mean>
+			<pitchM_StD>0.9</pitchM_StD>
+			<pitchS_Mean>1.55</pitchS_Mean>
+			<pitchS_StD>0.0</pitchS_StD>
+
+			<rollM_Mean>-1.0</rollM_Mean>
+			<rollM_StD>0.0</rollM_StD>
+			<rollS_Mean>0.0</rollS_Mean>
+			<rollS_StD>0.0</rollS_StD>
+
+			<attack>0.6</attack>
+			<corr>1.0</corr>
+		</IndCorrOrientationTranslation>
+
+		<ClassTranslation>
+			<speedMean>5.15</speedMean>
+			<speedStD>8.0</speedStD>
+		</ClassTranslation>
+		<IndividualTranslation>
+			
+			<speedM_Mean>0.0</speedM_Mean>
+			<speedM_StD>0.0</speedM_StD>
+			<speedS_Mean>0.0</speedS_Mean>
+			<speedS_StD>0.0</speedS_StD>
+		</IndividualTranslation>
+	</Movement>	
+</params>

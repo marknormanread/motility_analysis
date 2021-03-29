@@ -1,0 +1,1 @@
+['/Users/mark/Dropbox/python/motility_analysis/scripts/contrast_profiles.py', '-i1', 'sample_data/InvHeteroCRW_rep0', '-i2', 'sample_data/InvHeteroCRW_rep2', '-l1', 'fast', '-l2', 'slow', '-o', 'sample_data/crw_fast_vs_crw_slow', '-ow', '-g']
