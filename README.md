@@ -4,6 +4,7 @@ I started working on motility in around 2014.
 This package represents a framework for the analysis of how agents move through 3D space.
 The package's functionality has been expanded and updated over the years that I have been working on it.
 
+![sample_graph](sample_data/Levy_rep0/motility_profile/speeds_vs_turns.png)
 
 ## Technical
 
@@ -14,7 +15,8 @@ Usually many agents are observed simultaneously, and these are collected into a 
 
 `build.py` contains a variety of methods for commencing an analysis.
 The most typical analysis I have performed is to capture agent spatio-temporal position data as a CSV file.
-Example files can be found in the `test` directory, alongside example analyses.
+Example files can be found in the `sample_data` directory, alongside example analyses.
+Examples of how to use the package are found in the `tests` directory.
 
 There is facility to contrasting several `profiles` (e.g. different experiments or populations of cells).
 See the `contrast_profiles.py` module for details.
