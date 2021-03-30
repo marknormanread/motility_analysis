@@ -4,6 +4,7 @@ I started working on motility in around 2014.
 This package represents a framework for the analysis of how agents move through 3D space.
 The package's functionality has been expanded and updated over the years that I have been working on it.
 
+A sample graph (there are loads more): for this Levy flight, translational and turn speeds are inversely correlated. 
 ![sample_graph](sample_data/Levy_rep0/motility_profile/speeds_vs_turns.png)
 
 ## Technical
